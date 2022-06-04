@@ -67,10 +67,24 @@ ul{
     padding: 10px;
     display: block;
     background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .sidenav li + li{
     margin-top: 20px;
+}
+
+.sidenav img{
+    margin: 0px auto;
+}
+
+.sidenav div{
+    text-align: center;
+    margin: 10px -10px -10px -10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
 }
 
 .content{
