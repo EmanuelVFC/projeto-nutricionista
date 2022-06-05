@@ -326,6 +326,7 @@ ul{
     .sidenav{
         padding: 20px;
         overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
     }
 
     .sidenav a:hover > div{
