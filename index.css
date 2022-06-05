@@ -255,7 +255,7 @@ ul{
     text-decoration: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 860px) {
     .content{
         grid-template-columns: auto;
         gap: 2px;
@@ -276,7 +276,7 @@ ul{
     }
 }
 
-@media (max-width: 740px){
+@media (max-width: 774px){
     .container{
         display: grid;
         grid-template-columns: auto;
@@ -336,9 +336,13 @@ ul{
 
     .sidenav ul{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
     }
     
+    .sidenav li + li{
+        margin-left: 20px;
+    }
+
     .sidenav li + li{
         margin-top: 0;
     }
