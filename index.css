@@ -337,7 +337,7 @@ ul{
 
     .sidenav ul{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
     }
     
     .sidenav li + li{
