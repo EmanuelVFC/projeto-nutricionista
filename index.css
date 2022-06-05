@@ -279,7 +279,7 @@ ul{
 @media (max-width: 774px){
     .container{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
         grid-template-areas: 
             'header'
             'sidenav'
@@ -289,7 +289,7 @@ ul{
     }
 
     .content{
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
         gap: 2px;
     }
 
